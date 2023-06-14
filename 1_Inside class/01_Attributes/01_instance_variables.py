@@ -1,9 +1,9 @@
 class Bank:
     bankname = 'SBI'
     def __init__(self, acc, name, ammt):
-        self.account_no = acc   # self.account_no instance vairables
-        self.name = name        # self.name instance vairables
-        self.ammount = ammt     # self.ammount instance vairables
+        self.account_no = acc   # self.account_no is a instance variable acc
+        self.name = name        # self.name is a instance variables name
+        self.ammount = ammt     # self.amount is a instance vairables ammt
 
 c1 = Bank(101, 'jay', 5000)
 print(c1)

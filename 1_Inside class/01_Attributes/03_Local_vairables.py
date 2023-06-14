@@ -8,7 +8,7 @@ class Bank:
         self.ammount = ammt 
 
     def new_bank(self):
-        bank_name = "BOM" # local vaiables
+        bank_name = "BOM" # local variables
         print(bank_name)
 
         

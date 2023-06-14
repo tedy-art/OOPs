@@ -1,6 +1,6 @@
 class Bank:
-    #  as per it defination inside class and above construtor
-    bankname = 'SBI' # Class vaiables 
+    #  as per it definition inside class and above constructor
+    bankname = 'SBI' # Class variables
     def __init__(self, acc, name, ammt):    #Constructor
         self.account_no = acc   
         self.name = name           
