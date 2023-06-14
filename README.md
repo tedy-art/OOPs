@@ -9,9 +9,9 @@
 **Object oriented programming(oops):**<br />
     Total code is divided into objects.<br />
     There things are very important in oop:<br />
-        1)class<br />
-        2)object<br />
-        3)reference variable<br />
+        1) class<br />
+        2) object<br />
+        3) reference variable<br />
 
 **What is class:**<br />
     -> class is a blueprint plan to construct object<br />
@@ -45,7 +45,7 @@
 1) class and object --> one to many<br />
 2) object and referance vairable --> one to one<br />
 
-** By using class we can group variable ??
+**By using class we can group variable ??**<br />
 eg.1.
 
     class student:
@@ -59,7 +59,7 @@ eg.1.
     s1 = student('viru', 2, 70)
     print(f"student name is {s1.name}, roll number is {s1.roll} and marks are {s1.marks}")
 
-o/p<br />
+**Output**<br />
 student name is jay, roll number is 1 and marks are 88<br />
 student name is viru, roll number is 2 and marks are 70<br />
 
@@ -80,7 +80,7 @@ eg.2.
     s2 = student('viru', 2, 70)
     s2.get_details()
 
-o/p :
+**output**<br />
 student name is jay, roll number is 1 and marks are 88<br />
 student name is viru, roll number is 2 and marks are 70<br />
 <br />
