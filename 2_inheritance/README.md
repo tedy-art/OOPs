@@ -135,6 +135,55 @@ e.g.<br/>
 
 **Multiple Inheritance:**<br/>
 In mulitple inheritance, the child inherit from more than 'one' parent class.<br/>
+Multiple inheritance allows a class to inherit from multiple base classes.<br/>
+The derived class can access attributes and methods from all the base classes.<br/>
+It enables the derived class to combine functionalities from different classes.<br/>
 ![mulitple inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/multiple.png?raw=true)<br/>
 
+e.g.<br/>
+
+    class Parent1:
+        def assign_string_one(self, str1):
+            self.str1 = str1
+
+        def show_string_one(self):
+            return self.str1
+
+    class Parent2:
+        def assgin_string_two(self, str2):
+            self.str2 = str2
+
+        def show_string_two(self):
+            return self.str2
+
+    class Derived(Parent1, Parent2):
+        def assgin_string_three(self, str3):
+            self.str3 = str3
+
+        def show_string_three(self):
+            return self.str3
+
+    d1 = Derived()
+    d1.assign_string_one('one')
+    d1.assgin_string_two('two')
+    d1.assgin_string_three('three')
+
+    print(d1.show_string_one())
+    print(d1.show_string_two())
+    print(d1.show_string_three())
+
+
+**Output**<br/>
+
+    one
+    two
+    three
+
+**Multi-level Inheritance:**
+In multi-level inheritance, we have parent, child ,grandchild relationship.<br/>
+Multilevel inheritance involves inheriting from a derived class, which itself is derived from another class.<br/>
+The derived class at each level inherits the attributes and methods of its immediate parent class.<br/>
+It forms a hierarchical relationship between classes<br/>
+
+![multilevel inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/multilevel.png?raw=true)<br/>
 
