@@ -101,7 +101,7 @@ It enables the derived class to extend or modify the functionality of the base c
 
 e.g.<br/>
 
-        class Vehicle:
+    class Vehicle:
         def __init__(self, mileage, cost):
             self.mileage = mileage
             self.cost = cost
@@ -134,7 +134,7 @@ e.g.<br/>
 
 
 **Multiple Inheritance:**<br/>
-In mulitple inheritance, the child inherit from more than 'one' parent class.<br/>
+In multiple inheritance, the child inherits from more than 'one' parent class.<br/>
 Multiple inheritance allows a class to inherit from multiple base classes.<br/>
 The derived class can access attributes and methods from all the base classes.<br/>
 It enables the derived class to combine functionalities from different classes.<br/>
@@ -179,7 +179,7 @@ e.g.<br/>
     two
     three
 
-**Multi-level Inheritance:**
+**Multi-level Inheritance:**<br/>
 In multi-level inheritance, we have parent, child ,grandchild relationship.<br/>
 Multilevel inheritance involves inheriting from a derived class, which itself is derived from another class.<br/>
 The derived class at each level inherits the attributes and methods of its immediate parent class.<br/>
@@ -187,7 +187,7 @@ It forms a hierarchical relationship between classes<br/>
 
 ![multilevel inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/multilevel.png?raw=true)<br/>
 
-e.g 
+e.g. <br/>
 
     class Parent():
         def assign_name(self, name):
@@ -219,14 +219,14 @@ e.g
     print(gc.show_age())
     print(gc.show_gender())
 
-**output**
+**output**<br/>
     
     AVINASH
     24
     Male
 
 
-**Hybrid Inheritance:**
+**Hybrid Inheritance:**<br/>
 Hybrid inheritance combines multiple types of inheritance, such as single, multiple, multilevel, or hierarchical inheritance.<br/>
 It enables the creation of complex class hierarchies with diverse functionality.<br/>
 It provides flexibility in designing class relationships.<br/>
