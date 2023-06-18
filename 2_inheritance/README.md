@@ -1,8 +1,8 @@
-**Inheritance**
+**Inheritance**<br/>
 
-with inheritance one class derive the properties of another class.
+with inheritance, one class derives the properties of another class.<br/>
 
-**real-word logic of inheritance :**
+**real-word logic of inheritance :**<br/>
 
     grandpa
         |
@@ -12,7 +12,7 @@ with inheritance one class derive the properties of another class.
         |
     child
 
-e.g.
+e.g.<br/>
 
     class Vehicle:
         def __init__(self, mileage, cost):
@@ -35,7 +35,7 @@ e.g.
     c1.show_details()
     c1.show_car()
 
-<br/>output
+<br/>**output**<br/>
 
     I am a vehicle.
     Mileage of vehicle is  500
@@ -45,8 +45,8 @@ e.g.
     cost of vehicle is  1200
     I am a car
 
-**Overriding init method :**
-e.g.
+**Overriding init method :**<br/>
+e.g.<br/>
 
     class Vehicle:
         def __init__(self, mileage, cost):
@@ -73,7 +73,7 @@ e.g.
     c1.show_details()
     c1.show_car_details()
 
-**Output**
+**Output**<br/>
 
     #Vehicle#
     I am a vehicle.
@@ -85,21 +85,21 @@ e.g.
     Value of hP is  300
 
 
-**Types of Inheritance :**
-1] Single Inheritance
-2] Multiple Inheritance
-3] Mulit-level Inheritance
-4] Hybried Inheritance
-5] Hierarchical Inheritance
+**Types of Inheritance :**<br/>
+1] Single Inheritance<br/>
+2] Multiple Inheritance<br/>
+3] Mulit-level Inheritance<br/>
+4] Hybried Inheritance<br/>
+5] Hierarchical Inheritance<br/>
 
-**1] Single Inheritance**
+**1] Single Inheritance**<br/>
 In single inheritance, a class inherits from a single base class.<br/>
 The derived class inherits the attributes and methods of the base class.<br/>
 It enables the derived class to extend or modify the functionality of the base class.<br/>
 
-![single inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/Single.png?raw=true)
+![single inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/Single.png?raw=true)<br/>
 
-e.g.
+e.g.<br/>
 
         class Vehicle:
         def __init__(self, mileage, cost):
@@ -123,6 +123,7 @@ e.g.
     c1.show_car()
 
 **Output**<br/>
+
     I am a vehicle.
     Mileage of vehicle is  500
     cost of vehicle is  500
@@ -133,7 +134,7 @@ e.g.
 
 
 **Multiple Inheritance:**<br/>
-In mulitple inheritance, the child inherit from more than 'one' parent class.
-![mulitple inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/multiple.png?raw=true)
+In mulitple inheritance, the child inherit from more than 'one' parent class.<br/>
+![mulitple inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/multiple.png?raw=true)<br/>
 
 
