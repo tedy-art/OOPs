@@ -224,3 +224,39 @@ e.g
     AVINASH
     24
     Male
+
+
+**Hybrid Inheritance:**
+Hybrid inheritance combines multiple types of inheritance, such as single, multiple, multilevel, or hierarchical inheritance.<br/>
+It enables the creation of complex class hierarchies with diverse functionality.<br/>
+It provides flexibility in designing class relationships.<br/>
+
+![hybrid Inheritance](https://github.com/tedy-art/OOPs/blob/main/Images/Hybrid.png?raw=true)<br/>
+
+e.g.<br/>
+
+    # Python program to demonstrate hybrid inheritance
+    class School:
+	    def func1(self):
+		    print("This function is in school.")
+
+
+    class Student1(School):
+	    def func2(self):
+		    print("This function is in student 1. ")
+
+
+    class Student2(School):
+	    def func3(self):
+		    print("This function is in student 2.")
+
+
+    class Student3(Student1, School):
+	    def func4(self):
+		    print("This function is in student 3.")
+
+
+    # Driver's code
+    object = Student3()
+    object.func1()
+    object.func2()
