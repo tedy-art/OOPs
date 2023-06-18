@@ -271,7 +271,7 @@ e.g.<br/>
 Hierarchical inheritance involves multiple classes inheriting from a single base class.<br/>
 Multiple derived classes share common attributes and methods from the base class.<br/>
 It allows the derived classes to specialize or modify the inherited functionality.<br/>
-
+![Hierarchical](https://github.com/tedy-art/OOPs/blob/main/Images/Hierarchical.png?raw=true)<br/>
 e.g.<br/>
 
     # Python program to demonstrate Hierarchical inheritance
