@@ -88,8 +88,8 @@ e.g.<br/>
 **Types of Inheritance :**<br/>
 1] Single Inheritance<br/>
 2] Multiple Inheritance<br/>
-3] Mulit-level Inheritance<br/>
-4] Hybried Inheritance<br/>
+3] Multi-level Inheritance<br/>
+4] Hybrid Inheritance<br/>
 5] Hierarchical Inheritance<br/>
 
 **1] Single Inheritance**<br/>
