@@ -260,3 +260,48 @@ e.g.<br/>
     object = Student3()
     object.func1()
     object.func2()
+
+**Output:**<br/>
+
+    This function is in school.
+    This function is in student 1. 
+
+**Hierarchical Inheritance:**<br/>
+
+Hierarchical inheritance involves multiple classes inheriting from a single base class.<br/>
+Multiple derived classes share common attributes and methods from the base class.<br/>
+It allows the derived classes to specialize or modify the inherited functionality.<br/>
+
+e.g.<br/>
+
+    # Python program to demonstrate Hierarchical inheritance
+    # Base class
+    class Parent:
+	    def func1(self):
+		    print("This function is in parent class.")
+
+    # Derived class1
+    class Child1(Parent):
+	    def func2(self):
+		    print("This function is in child 1.")
+
+    # Derivied class2
+    class Child2(Parent):
+	    def func3(self):
+		    print("This function is in child 2.")
+
+
+    # Driver's code
+    object1 = Child1()
+    object2 = Child2()
+    object1.func1()
+    object1.func2()
+    object2.func1()
+    object2.func3()
+
+**Output:**
+    
+    This function is in parent class.
+    This function is in child 1.
+    This function is in parent class.
+    This function is in child 2.
