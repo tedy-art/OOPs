@@ -45,8 +45,25 @@ e.g.<br/>
     ob1 = Bank()
     ob2 = ICICI()
 
-    print(ob1.rateofInterest())
-    print(ob2.rateofInterest())
+    print(ob1.rateofInterest()) # 0
+    print(ob2.rateofInterest()) # 10.5
 
 
 **2]Method Overloading :**<br/>
+1] In python you can define a method in a way that there are multiple ways to call it.<br/>
+2] Given a single method or function, we can specify the number of parameters our self.<br/>
+**IMP:-**<br/>
+**Unlike some other programming languages, Python does not support method overloading by default**<br/>
+
+e.g.
+
+    class Calculator:
+        def add(self, num1, num2):
+            return num1 + num2
+
+        def add(self, num1, num2, num3):
+            return num1 + num2 + num3
+
+    calculator = Calculator()
+    print(calculator.add(2, 3))        # Output: TypeError: add() missing 1 required positional argument: 'num3'
+    print(calculator.add(2, 3, 4))     # Output: 9
