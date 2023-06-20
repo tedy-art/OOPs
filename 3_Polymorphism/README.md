@@ -6,8 +6,7 @@ morphism = have forms<br/>
 2] If we have a button, there are many different draw outputs(round button, square button, button with image)but they do share the same logic: **onclick()**<br/>
 3] we access them using the same method. This idea is called Polymorphism.<br/>
 
-<span style="color:#f2cf4a; font-family: 'Bebas Neue'; font-size: 2em;"><i>Polymorphism can be achieved in python though **method overloading** and **method overriding**<i/><br/>
-</span>
+_<i>Polymorphism can be achieved in python though **method overloading** and **method overriding**<i/>_<br/>
 
 **1] method overriding:**<br/>
 1) Overriding means having two methods with the same name bur doing different tasks.<br/>
